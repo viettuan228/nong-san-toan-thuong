@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700;900&display=swap");
+
+html {
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 16px;
+    color: #222222;
+}
+
+.text-title-lime {
+    color: #88c74a;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 20px;
+}
+
+.text-des-48 {
+    color: #252525;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.text-gray-normal {
+    color: #999489;
+    font-size: 1.25rem;
+}
+.text-title-b-44 {
+    color: #252525;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.3;
+}
