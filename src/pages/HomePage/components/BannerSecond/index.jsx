@@ -27,8 +27,8 @@ function BannerSecond(props) {
         <div
             key={index}
             className={`h-full ${
-                index !== 1 ? 'col-span-1' : 'col-span-2'
-            } flex flex-col items-center justify-between bg-cover bg-no-repeat group pt-10 pb-8 cursor-pointer`}
+                index !== 1 ? 'col-span-1' : 'sm:col-span-2 col-span-1'
+            } flex flex-col items-center sm:justify-between justify-center bg-cover bg-no-repeat group pt-10 pb-8 cursor-pointer`}
             style={{ backgroundImage: `url(${item.bg})` }}
         >
             <div className="w-full h-full flex items-center justify-center">
@@ -39,14 +39,14 @@ function BannerSecond(props) {
                 />
             </div>
 
-            <div className="mt-8 invisible opacity-0 translate-y-[100%] group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 transition duration-500 ease-in-out">
+            <div className="sm:mt-8 mt-4 sm:invisible visible sm:opacity-0 opacity-100 sm:translate-y-[100%] group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 transition duration-500 ease-in-out">
                 <ButtonLime text="SHOP NOW" />
             </div>
         </div>
     ))
 
     return (
-        <div className="bannerSecond w-full h-[450px] grid grid-cols-4">
+        <div className="bannerSecond w-full sm:h-[450px] grid sm:grid-cols-4 grid-cols-1">
             {renderBanner}
         </div>
     )

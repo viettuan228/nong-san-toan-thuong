@@ -13,7 +13,7 @@ import ProductType from './components/ProductType'
 const HomePage = () => {
     return (
         <div className="home ">
-            <div className="home__banner min-h-screen w-full">
+            <div className="home__banner md:min-h-screen w-full">
                 <HomeBanner bannerList={bannerList} />
             </div>
             <div className="container pt-20 pb-20">

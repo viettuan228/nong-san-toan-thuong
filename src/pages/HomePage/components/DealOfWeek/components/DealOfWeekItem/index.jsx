@@ -3,7 +3,7 @@ import React from 'react'
 function DealOfWeekItem(props) {
     const { icon, title, des, cusClass } = props
     return (
-        <div className="flex items-center justify-between group">
+        <div className="flex items-center justify-between group sm:flex-row flex-row-reverse mt-4">
             <div className={`${cusClass} pr-6`}>
                 <h3 className="capitalize font-bold">{title}</h3>
                 <p className="text-gray">{des}</p>

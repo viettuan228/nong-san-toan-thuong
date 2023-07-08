@@ -11,7 +11,7 @@ function FeatureProduct({ featuredProductList, featureProductItemList }) {
             key={featureItem.id}
             className={`featureLink ${
                 featureItem.id === selectFeature ? 'text-lime' : 'text-gray'
-            }  hover:text-lime text-lg   transition-colors duration-300 ease-in-out px-4 capitalize font-bold`}
+            }  hover:text-lime text-lg transition-colors duration-300 ease-in-out md:px-4 px-2 capitalize font-bold whitespace-nowrap`}
         >
             <button onClick={() => handleSetFeaturedSelected(featureItem.id)}>
                 <p className="capitalize">{featureItem.featuredProductName}</p>
@@ -33,10 +33,10 @@ function FeatureProduct({ featuredProductList, featureProductItemList }) {
     return (
         <div className="featuredProduct w-full flex flex-col items-center mt-16">
             <h1 className="text-title-b-44">Featured Product</h1>
-            <div className="flex items-center justify-center mt-4">
+            <div className="flex items-center sm:justify-center md:pb-0 pb-2 mt-4 w-full overflow-x-auto">
                 {renderFeaturedList}
             </div>
-            <div className="featuredProduct__list mt-4 grid grid-cols-4 gap-8">
+            <div className="featuredProduct__list mt-4 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-8 md:gap-4 gap-2">
                 {renderFeaturedProductItem}
             </div>
         </div>

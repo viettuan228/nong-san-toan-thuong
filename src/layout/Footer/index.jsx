@@ -7,7 +7,7 @@ const Footer = () => {
         return itemList.map((item, index) => (
             <div
                 key={index}
-                className="pt-2 hover:text-lime hover:font-bold transition duration-300 ease-in-out cursor-pointer"
+                className="md:pt-2 pt-0 hover:text-lime hover:font-bold transition duration-300 ease-in-out cursor-pointer md:pl-0 pl-4"
             >
                 {item.name}
             </div>
@@ -16,7 +16,7 @@ const Footer = () => {
     const renderFooter = dataFooter.map((item, index) => (
         <div key={index}>
             <h1 className="font-bold text-black uppercase">{item.title}</h1>
-            <div className="mt-4 text-gray ">
+            <div className="md:mt-4 md:mb-0 mt-2 mb-4 text-gray flex md:flex-col flex-row">
                 {renderFooterItem(item.itemList)}
             </div>
         </div>
@@ -24,7 +24,7 @@ const Footer = () => {
     return (
         <footer className="w-full homeFooter">
             <div className="container">
-                <div className="grid grid-cols-6 gap-4">
+                <div className="grid md:grid-cols-6 grid-cols-1 md:grid-flow-col grid-flow-row gap-4">
                     <div className="homeFooter__logo text-gray col-span-2">
                         <div className="h-[80px]">
                             <img
@@ -39,7 +39,7 @@ const Footer = () => {
                             <p>Email: vuongthithuong32@gmail.com</p>
                         </div>
                     </div>
-                    <div className="flex justify-between col-span-4">
+                    <div className="flex md:flex-row flex-col justify-between col-span-4">
                         {renderFooter}
                     </div>
                 </div>

@@ -20,7 +20,7 @@ export const NAVITEM = [
         urlLink: ROUTER_NAME.news,
     },
     {
-        name: NAME_NAV_ITEM.about,
+        name: NAME_NAV_ITEM.aboutUs,
         urlLink: ROUTER_NAME.aboutUs,
     },
     {
