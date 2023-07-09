@@ -2,7 +2,6 @@ import { lazy, Suspense } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import 'swiper/css'
 import 'swiper/css/navigation'
-import './App.css'
 import { ROUTES } from './constain'
 import Footer from './layout/Footer'
 import Header from './layout/Header'
@@ -19,13 +18,16 @@ function App() {
                     <Header />
                     <Routes>
                         <Route path="/" element={<HomePage />} />
-                    </Routes>
-                    <Routes>
                         <Route path={ROUTES.home} element={<HomePage />} />
+                        <Route
+                            path={ROUTES.shop + '/:page'}
+                            element={<Shop />}
+                        />
                     </Routes>
-                    <Routes>
+
+                    {/* <Routes>
                         <Route path={ROUTES.shop} element={<Shop />} />
-                    </Routes>
+                    </Routes> */}
                     <Footer />
                 </Suspense>
             </main>

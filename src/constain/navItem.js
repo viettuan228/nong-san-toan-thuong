@@ -13,7 +13,7 @@ export const NAVITEM = [
     },
     {
         name: NAME_NAV_ITEM.shop,
-        urlLink: ROUTER_NAME.shop,
+        urlLink: ROUTER_NAME.shop + '/1',
     },
     {
         name: NAME_NAV_ITEM.news,

@@ -1,4 +1,3 @@
-import logo from '../../assets/images/logo.png'
 import './style.scss'
 const Loading = () => {
     return (

@@ -12,6 +12,22 @@ export const featureProductItemList = [
         price: '188.0',
         id: 1211,
         productCat: ['bread'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Green Aus',
@@ -20,6 +36,22 @@ export const featureProductItemList = [
         price: '158.0',
         id: 1178,
         productCat: ['oranges', 'organic-drinks'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Salab Green',
@@ -28,6 +60,22 @@ export const featureProductItemList = [
         price: '190.0',
         id: 1177,
         productCat: ['oranges', 'organic-drinks'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'India Strawberry',
@@ -36,6 +84,22 @@ export const featureProductItemList = [
         price: '169.0',
         id: 1176,
         productCat: ['oranges', 'organic-drinks'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Yelow Avocado',
@@ -44,6 +108,22 @@ export const featureProductItemList = [
         price: '220.0',
         id: 1003,
         productCat: ['oranges', 'organic-drinks'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Australian Kiwi',
@@ -52,6 +132,22 @@ export const featureProductItemList = [
         price: '169.0',
         id: 1002,
         productCat: ['organic-drinks'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Japanese Strawberry',
@@ -60,6 +156,22 @@ export const featureProductItemList = [
         price: '135.0',
         id: 1001,
         productCat: ['fastfood', 'organic-drinks'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'External Product',
@@ -68,6 +180,22 @@ export const featureProductItemList = [
         price: '179.0',
         id: 999,
         productCat: ['fastfood', 'oranges'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Grouped Product',
@@ -76,6 +204,22 @@ export const featureProductItemList = [
         price: '169.0',
         id: 998,
         productCat: ['fresh-meat', 'oranges'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'American Grape',
@@ -84,6 +228,22 @@ export const featureProductItemList = [
         price: '120.0',
         id: 994,
         productCat: ['oranges', 'organic-drinks'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Indian Potatoes',
@@ -92,6 +252,22 @@ export const featureProductItemList = [
         price: '185.0',
         id: 993,
         productCat: ['fastfood', 'organic-drinks'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Indian Grape',
@@ -100,6 +276,22 @@ export const featureProductItemList = [
         price: '169.0',
         id: 992,
         productCat: ['fresh-meat'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Green Cauliflower',
@@ -108,6 +300,22 @@ export const featureProductItemList = [
         price: '150.0',
         id: 991,
         productCat: ['fresh-meat', 'vegetables'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Cucumber Indina',
@@ -116,6 +324,22 @@ export const featureProductItemList = [
         price: '169.0',
         id: 990,
         productCat: ['fastfood', 'fresh-meat'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Mustard Australia',
@@ -124,6 +348,22 @@ export const featureProductItemList = [
         price: '169.0',
         id: 989,
         productCat: ['oranges', 'vegetables'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Green Cabbage',
@@ -140,6 +380,22 @@ export const featureProductItemList = [
         price: '169.0',
         id: 987,
         productCat: ['ocean-foods', 'oranges'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Tesco Green',
@@ -148,6 +404,22 @@ export const featureProductItemList = [
         price: '169.0',
         id: 986,
         productCat: ['oranges', 'organic-drinks'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'India Strawberry',
@@ -156,6 +428,22 @@ export const featureProductItemList = [
         price: '169.00',
         id: 985,
         productCat: ['fresh-meat', 'ocean-foods'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Organic Chilli',
@@ -164,6 +452,22 @@ export const featureProductItemList = [
         price: '150.0',
         id: 982,
         productCat: ['fastfood', 'organic-drinks'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Japanes Grape',
@@ -172,6 +476,22 @@ export const featureProductItemList = [
         price: '169.0',
         id: 1179,
         productCat: ['oranges', 'organic-drinks'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Kossar’s Bakery',
@@ -180,6 +500,22 @@ export const featureProductItemList = [
         price: 120.0,
         id: 1218,
         productCat: ['bread'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Peanut Butter',
@@ -188,6 +524,22 @@ export const featureProductItemList = [
         price: '158.0',
         id: 1217,
         productCat: ['bread'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Anpan Bread',
@@ -196,6 +548,22 @@ export const featureProductItemList = [
         price: '125.0',
         id: 1216,
         productCat: ['bread'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Bagel Cookies',
@@ -204,6 +572,22 @@ export const featureProductItemList = [
         price: '175.0',
         id: 1215,
         productCat: ['bread'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Chocolate Chip',
@@ -212,6 +596,22 @@ export const featureProductItemList = [
         price: '169.0',
         id: 1214,
         productCat: ['bread'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Zossar’s Bakery',
@@ -220,6 +620,22 @@ export const featureProductItemList = [
         price: '220.0',
         id: 1213,
         productCat: ['bread'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Fortune Cookies',
@@ -228,6 +644,22 @@ export const featureProductItemList = [
         price: '169.0',
         id: 1212,
         productCat: ['bread'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Pure Pineapple',
@@ -236,6 +668,22 @@ export const featureProductItemList = [
         price: '160.0',
         id: 693,
         productCat: ['fastfood', 'organic-drinks'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
     {
         title: 'Product Detail 2',
@@ -244,248 +692,264 @@ export const featureProductItemList = [
         price: '150.0',
         id: 683,
         productCat: ['fastfood', 'oranges'],
+        description:
+            'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        imageList: [
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12.jpg',
+            'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product11.jpg',
+        ],
+        information: {
+            img: 'https://demoapus2.com/ogami/wp-content/uploads/2019/01/des-detail-product.jpg',
+            info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiustempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. S totam rem aperiam, eaque ipsa',
+        },
+        additionalInfo: {
+            weight: '10gram',
+            dimensions: '8 × 12 × 15 cm',
+            size: ['L', 'XL'],
+        },
     },
 ]
 
-export const dataShop = [
-    {
-        title: 'Zutter Chocolate',
-        url: 'https://demoapus2.com/ogami/product/zutter-chocolate/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_24-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>188.00</bdi></span>',
-        id: 1211,
-        product_cat: ['bread'],
-    },
-    {
-        title: 'Green Aus',
-        url: 'https://demoapus2.com/ogami/product/green-aus/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product162-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>158.00</bdi></span>',
-        id: 1178,
-        product_cat: ['oranges', 'organic-drinks'],
-    },
-    {
-        title: 'Salab Green',
-        url: 'https://demoapus2.com/ogami/product/salab-green/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product152-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>190.00</bdi></span>',
-        id: 1177,
-        product_cat: ['oranges', 'organic-drinks'],
-    },
-    {
-        title: 'India Strawberry',
-        url: 'https://demoapus2.com/ogami/product/india-strawberry-2/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product52-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
-        id: 1176,
-        product_cat: ['oranges', 'organic-drinks'],
-    },
-    {
-        title: 'Yelow Avocado',
-        url: 'https://demoapus2.com/ogami/product/yelow-avocado/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product92-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>220.00</bdi></span>',
-        id: 1003,
-        product_cat: ['oranges', 'organic-drinks'],
-    },
-    {
-        title: 'Australian Kiwi',
-        url: 'https://demoapus2.com/ogami/product/australian-kiwi/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product41-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
-        id: 1002,
-        product_cat: ['organic-drinks'],
-    },
-    {
-        title: 'Japanese Strawberry',
-        url: 'https://demoapus2.com/ogami/product/japanese-strawberry/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product52-150x150.jpg',
-        price: '<del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>145.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>135.00</bdi></span></ins>',
-        id: 1001,
-        product_cat: ['fastfood', 'organic-drinks'],
-    },
-    {
-        title: 'External Product',
-        url: 'https://demoapus2.com/ogami/product/external-product/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product102-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>179.00</bdi></span>',
-        id: 999,
-        product_cat: ['fastfood', 'oranges'],
-    },
-    {
-        title: 'Grouped Product',
-        url: 'https://demoapus2.com/ogami/product/grouped-product/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
-        id: 998,
-        product_cat: ['fresh-meat', 'oranges'],
-    },
-    {
-        title: 'American Grape',
-        url: 'https://demoapus2.com/ogami/product/american-grape/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>120.00</bdi></span>',
-        id: 994,
-        product_cat: ['oranges', 'organic-drinks'],
-    },
-    {
-        title: 'Indian Potatoes',
-        url: 'https://demoapus2.com/ogami/product/indian-potatoes/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product143-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>185.00</bdi></span>',
-        id: 993,
-        product_cat: ['fastfood', 'organic-drinks'],
-    },
-    {
-        title: 'Indian Grape',
-        url: 'https://demoapus2.com/ogami/product/indian-grape/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product82-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
-        id: 992,
-        product_cat: ['fresh-meat'],
-    },
-    {
-        title: 'Green Cauliflower',
-        url: 'https://demoapus2.com/ogami/product/green-cauliflower/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product132-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>',
-        id: 991,
-        product_cat: ['fresh-meat', 'vegetables'],
-    },
-    {
-        title: 'Cucumber Indina',
-        url: 'https://demoapus2.com/ogami/product/cucumber-indina/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product101-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
-        id: 990,
-        product_cat: ['fastfood', 'fresh-meat'],
-    },
-    {
-        title: 'Mustard Australia',
-        url: 'https://demoapus2.com/ogami/product/mustard-australia/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product112-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
-        id: 989,
-        product_cat: ['oranges', 'vegetables'],
-    },
-    {
-        title: 'Green Cabbage',
-        url: 'https://demoapus2.com/ogami/product/green-cabbage/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product152-150x150.jpg',
-        price: '<del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span></ins>',
-        id: 988,
-        product_cat: ['fastfood', 'fresh-meat'],
-    },
-    {
-        title: 'Japan Potatoes',
-        url: 'https://demoapus2.com/ogami/product/japan-potatoes/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product144-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
-        id: 987,
-        product_cat: ['ocean-foods', 'oranges'],
-    },
-    {
-        title: 'Tesco Green',
-        url: 'https://demoapus2.com/ogami/product/tesco-green/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product72-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
-        id: 986,
-        product_cat: ['oranges', 'organic-drinks'],
-    },
-    {
-        title: 'India Strawberry',
-        url: 'https://demoapus2.com/ogami/product/india-strawberry/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product51-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
-        id: 985,
-        product_cat: ['fresh-meat', 'ocean-foods'],
-    },
-    {
-        title: 'Organic Chilli',
-        url: 'https://demoapus2.com/ogami/product/organic-chilli/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product162-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>',
-        id: 982,
-        product_cat: ['fastfood', 'organic-drinks'],
-    },
-    {
-        title: 'Japanes Grape',
-        url: 'https://demoapus2.com/ogami/product/japanes-grape/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product82-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
-        id: 1179,
-        product_cat: ['oranges', 'organic-drinks'],
-    },
-    {
-        title: 'Kossar’s Bakery',
-        url: 'https://demoapus2.com/ogami/product/kossars-bakery/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product17-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>120.00</bdi></span>',
-        id: 1218,
-        product_cat: ['bread'],
-    },
-    {
-        title: 'Peanut Butter',
-        url: 'https://demoapus2.com/ogami/product/peanut-butter/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_18-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>158.00</bdi></span>',
-        id: 1217,
-        product_cat: ['bread'],
-    },
-    {
-        title: 'Anpan Bread',
-        url: 'https://demoapus2.com/ogami/product/anpan-bread/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_19-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>125.00</bdi></span>',
-        id: 1216,
-        product_cat: ['bread'],
-    },
-    {
-        title: 'Bagel Cookies',
-        url: 'https://demoapus2.com/ogami/product/bagel-cookies/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_23-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>175.00</bdi></span>',
-        id: 1215,
-        product_cat: ['bread'],
-    },
-    {
-        title: 'Chocolate Chip',
-        url: 'https://demoapus2.com/ogami/product/chocolate-chip/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_22-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
-        id: 1214,
-        product_cat: ['bread'],
-    },
-    {
-        title: 'Zossar’s Bakery',
-        url: 'https://demoapus2.com/ogami/product/zossars-bakery/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_21-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>220.00</bdi></span>',
-        id: 1213,
-        product_cat: ['bread'],
-    },
-    {
-        title: 'Fortune Cookies',
-        url: 'https://demoapus2.com/ogami/product/fortune-cookies/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_20-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
-        id: 1212,
-        product_cat: ['bread'],
-    },
-    {
-        title: 'Pure Pineapple',
-        url: 'https://demoapus2.com/ogami/product/pure-pineapple/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product82-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>160.00</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>180.00</bdi></span>',
-        id: 693,
-        product_cat: ['fastfood', 'organic-drinks'],
-    },
-    {
-        title: 'Product Detail 2',
-        url: 'https://demoapus2.com/ogami/product/product-detail-2/',
-        image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product41-150x150.jpg',
-        price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>120.00</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>',
-        id: 683,
-        product_cat: ['fastfood', 'oranges'],
-    },
-]
+// export const dataShop = [
+//     {
+//         title: 'Zutter Chocolate',
+//         url: 'https://demoapus2.com/ogami/product/zutter-chocolate/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_24-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>188.00</bdi></span>',
+//         id: 1211,
+//         product_cat: ['bread'],
+//     },
+//     {
+//         title: 'Green Aus',
+//         url: 'https://demoapus2.com/ogami/product/green-aus/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product162-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>158.00</bdi></span>',
+//         id: 1178,
+//         product_cat: ['oranges', 'organic-drinks'],
+//     },
+//     {
+//         title: 'Salab Green',
+//         url: 'https://demoapus2.com/ogami/product/salab-green/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product152-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>190.00</bdi></span>',
+//         id: 1177,
+//         product_cat: ['oranges', 'organic-drinks'],
+//     },
+//     {
+//         title: 'India Strawberry',
+//         url: 'https://demoapus2.com/ogami/product/india-strawberry-2/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product52-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
+//         id: 1176,
+//         product_cat: ['oranges', 'organic-drinks'],
+//     },
+//     {
+//         title: 'Yelow Avocado',
+//         url: 'https://demoapus2.com/ogami/product/yelow-avocado/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product92-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>220.00</bdi></span>',
+//         id: 1003,
+//         product_cat: ['oranges', 'organic-drinks'],
+//     },
+//     {
+//         title: 'Australian Kiwi',
+//         url: 'https://demoapus2.com/ogami/product/australian-kiwi/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product41-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
+//         id: 1002,
+//         product_cat: ['organic-drinks'],
+//     },
+//     {
+//         title: 'Japanese Strawberry',
+//         url: 'https://demoapus2.com/ogami/product/japanese-strawberry/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product52-150x150.jpg',
+//         price: '<del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>145.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>135.00</bdi></span></ins>',
+//         id: 1001,
+//         product_cat: ['fastfood', 'organic-drinks'],
+//     },
+//     {
+//         title: 'External Product',
+//         url: 'https://demoapus2.com/ogami/product/external-product/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product102-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>179.00</bdi></span>',
+//         id: 999,
+//         product_cat: ['fastfood', 'oranges'],
+//     },
+//     {
+//         title: 'Grouped Product',
+//         url: 'https://demoapus2.com/ogami/product/grouped-product/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product12-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
+//         id: 998,
+//         product_cat: ['fresh-meat', 'oranges'],
+//     },
+//     {
+//         title: 'American Grape',
+//         url: 'https://demoapus2.com/ogami/product/american-grape/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product13-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>120.00</bdi></span>',
+//         id: 994,
+//         product_cat: ['oranges', 'organic-drinks'],
+//     },
+//     {
+//         title: 'Indian Potatoes',
+//         url: 'https://demoapus2.com/ogami/product/indian-potatoes/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product143-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>185.00</bdi></span>',
+//         id: 993,
+//         product_cat: ['fastfood', 'organic-drinks'],
+//     },
+//     {
+//         title: 'Indian Grape',
+//         url: 'https://demoapus2.com/ogami/product/indian-grape/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product82-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
+//         id: 992,
+//         product_cat: ['fresh-meat'],
+//     },
+//     {
+//         title: 'Green Cauliflower',
+//         url: 'https://demoapus2.com/ogami/product/green-cauliflower/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product132-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>',
+//         id: 991,
+//         product_cat: ['fresh-meat', 'vegetables'],
+//     },
+//     {
+//         title: 'Cucumber Indina',
+//         url: 'https://demoapus2.com/ogami/product/cucumber-indina/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product101-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
+//         id: 990,
+//         product_cat: ['fastfood', 'fresh-meat'],
+//     },
+//     {
+//         title: 'Mustard Australia',
+//         url: 'https://demoapus2.com/ogami/product/mustard-australia/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product112-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
+//         id: 989,
+//         product_cat: ['oranges', 'vegetables'],
+//     },
+//     {
+//         title: 'Green Cabbage',
+//         url: 'https://demoapus2.com/ogami/product/green-cabbage/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product152-150x150.jpg',
+//         price: '<del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span></ins>',
+//         id: 988,
+//         product_cat: ['fastfood', 'fresh-meat'],
+//     },
+//     {
+//         title: 'Japan Potatoes',
+//         url: 'https://demoapus2.com/ogami/product/japan-potatoes/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product144-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
+//         id: 987,
+//         product_cat: ['ocean-foods', 'oranges'],
+//     },
+//     {
+//         title: 'Tesco Green',
+//         url: 'https://demoapus2.com/ogami/product/tesco-green/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product72-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
+//         id: 986,
+//         product_cat: ['oranges', 'organic-drinks'],
+//     },
+//     {
+//         title: 'India Strawberry',
+//         url: 'https://demoapus2.com/ogami/product/india-strawberry/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product51-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
+//         id: 985,
+//         product_cat: ['fresh-meat', 'ocean-foods'],
+//     },
+//     {
+//         title: 'Organic Chilli',
+//         url: 'https://demoapus2.com/ogami/product/organic-chilli/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product162-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>',
+//         id: 982,
+//         product_cat: ['fastfood', 'organic-drinks'],
+//     },
+//     {
+//         title: 'Japanes Grape',
+//         url: 'https://demoapus2.com/ogami/product/japanes-grape/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product82-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
+//         id: 1179,
+//         product_cat: ['oranges', 'organic-drinks'],
+//     },
+//     {
+//         title: 'Kossar’s Bakery',
+//         url: 'https://demoapus2.com/ogami/product/kossars-bakery/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product17-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>120.00</bdi></span>',
+//         id: 1218,
+//         product_cat: ['bread'],
+//     },
+//     {
+//         title: 'Peanut Butter',
+//         url: 'https://demoapus2.com/ogami/product/peanut-butter/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_18-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>158.00</bdi></span>',
+//         id: 1217,
+//         product_cat: ['bread'],
+//     },
+//     {
+//         title: 'Anpan Bread',
+//         url: 'https://demoapus2.com/ogami/product/anpan-bread/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_19-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>125.00</bdi></span>',
+//         id: 1216,
+//         product_cat: ['bread'],
+//     },
+//     {
+//         title: 'Bagel Cookies',
+//         url: 'https://demoapus2.com/ogami/product/bagel-cookies/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_23-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>175.00</bdi></span>',
+//         id: 1215,
+//         product_cat: ['bread'],
+//     },
+//     {
+//         title: 'Chocolate Chip',
+//         url: 'https://demoapus2.com/ogami/product/chocolate-chip/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_22-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
+//         id: 1214,
+//         product_cat: ['bread'],
+//     },
+//     {
+//         title: 'Zossar’s Bakery',
+//         url: 'https://demoapus2.com/ogami/product/zossars-bakery/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_21-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>220.00</bdi></span>',
+//         id: 1213,
+//         product_cat: ['bread'],
+//     },
+//     {
+//         title: 'Fortune Cookies',
+//         url: 'https://demoapus2.com/ogami/product/fortune-cookies/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product_b_20-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>169.00</bdi></span>',
+//         id: 1212,
+//         product_cat: ['bread'],
+//     },
+//     {
+//         title: 'Pure Pineapple',
+//         url: 'https://demoapus2.com/ogami/product/pure-pineapple/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product82-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>160.00</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>180.00</bdi></span>',
+//         id: 693,
+//         product_cat: ['fastfood', 'organic-drinks'],
+//     },
+//     {
+//         title: 'Product Detail 2',
+//         url: 'https://demoapus2.com/ogami/product/product-detail-2/',
+//         image: 'https://demoapus2.com/ogami/wp-content/uploads/2019/02/product41-150x150.jpg',
+//         price: '<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>120.00</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150.00</bdi></span>',
+//         id: 683,
+//         product_cat: ['fastfood', 'oranges'],
+//     },
+// ]
