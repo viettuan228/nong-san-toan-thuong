@@ -24,6 +24,7 @@ function Pagination({ total, itemPage, page }) {
                     {i}
                 </button>
             )
+            if(i>= page + 10) break
         }
         return pagination
     }

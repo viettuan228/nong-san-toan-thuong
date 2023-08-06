@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import HomeBanner from '../../components/sliders/banner/HomeBanner'
 import {
     bannerList,
@@ -9,8 +10,16 @@ import BannerSecond from './components/BannerSecond'
 import DealOfWeek from './components/DealOfWeek'
 import FeatureProduct from './components/FeaturedProduct'
 import ProductType from './components/ProductType'
+import { getAllBanner } from '../../store/homeBanner'
+import { useDispatch, useSelector } from 'react-redux'
 
 const HomePage = () => {
+    const dispatch = useDispatch()
+    const dataBanner = useSelector((state) => state.banner.dataHomeBanner)
+    console.log('dataBanner', dataBanner)
+    useEffect(() => {
+        dispatch(getAllBanner())
+    }, [dispatch])
     return (
         <div className="home ">
             <div className="home__banner md:min-h-screen w-full">
