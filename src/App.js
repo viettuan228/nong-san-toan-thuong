@@ -9,6 +9,7 @@ import Loading from './pages/Loading'
 
 const HomePage = lazy(() => import('./pages/HomePage'))
 const Shop = lazy(() => import('./pages/Shop'))
+const ProductDetail = lazy(() => import('./pages/ProductDetail'))
 
 function App() {
     return (
@@ -22,6 +23,10 @@ function App() {
                         <Route
                             path={ROUTES.shop + '/:page'}
                             element={<Shop />}
+                        />
+                        <Route
+                            path={ROUTES.shop + '/:page/:productId'}
+                            element={<ProductDetail />}
                         />
                     </Routes>
 

@@ -5,7 +5,7 @@ import DropDown from '../../components/dropdown'
 import { featureProductItemList } from '../../data/jSonData/producItem'
 import CardProductItem from '../../components/cards/CardProductItem'
 import Pagination from '../../components/pagination'
-import { useNavigate, useParams } from 'react-router-dom'
+import { NavLink, useNavigate, useParams } from 'react-router-dom'
 import { ROUTER_NAME } from '../../constain/routesName'
 
 function Shop() {
@@ -138,9 +138,13 @@ function Shop() {
         })
         .map((item) => {
             return (
-                <div key={item.id} className="py-2">
+                <NavLink
+                    to={ROUTER_NAME.shop + '/' + page + '/' + item.id}
+                    key={item.id}
+                    className="py-2"
+                >
                     <CardProductItem productItem={item} />
-                </div>
+                </NavLink>
             )
         })
 
