@@ -2,6 +2,8 @@ import { useState } from 'react'
 import StarRatingIcon from '../../components/icons/StarRatingIcon'
 import PictureZoom from '../../components/picture/PictureZoom'
 import NumberInput from '../../components/input/NumberInput'
+import ButtonLime from '../../components/buttons/buttonLime'
+import ButtonRounded from '../../components/buttons/ButtonRounded'
 
 const imgData = [
     {
@@ -34,7 +36,7 @@ const ProductDetail = (props) => {
     })
 
     return (
-        <div className="container productDetail w-full min-h-screen my-4">
+        <div className="container productDetail w-full min-h-screen my-4 flex flex-col gap-8">
             <div className="w-full flex items-start gap-8">
                 <div className="flex flex-col w-[540px] gap-4">
                     <div className="w-[540px] h-[540px]">
@@ -80,11 +82,15 @@ const ProductDetail = (props) => {
                     </div>
 
                     <div className="flex items-center gap-4 border-y-[1px] border-gray2 py-6">
-                        <div className="h-[56px] w-[70px]">
+                        <div className="h-[56px] w-[70px] mr-4">
                             <NumberInput name="quantityCart" />
                         </div>
-
-                        <button className="h-[56px]">Add to cart</button>
+                        <ButtonLime
+                            width={'200px'}
+                            height={'56px'}
+                            classCus="h-[56px] w-[500px]"
+                            text="Thêm vào giỏ hàng"
+                        />
                     </div>
                     <div className="flex flex-col gap-2">
                         <p className="font-bold">
@@ -108,6 +114,7 @@ const ProductDetail = (props) => {
                     </div>
                 </div>
             </div>
+            <div className="w-full"></div>
         </div>
     )
 }
