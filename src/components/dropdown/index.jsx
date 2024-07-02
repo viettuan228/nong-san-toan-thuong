@@ -1,11 +1,24 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 
 function DropDown(props) {
     const { text, itemList } = props
     const [openDropdown, setOpenDropdown] = useState(false)
+    const dropdownRef = useRef(null)
+
     const handleClick = () => {
+        console.log(openDropdown)
         setOpenDropdown(!openDropdown)
     }
+
+    const handleBlur = (event) => {
+        if (
+            dropdownRef.current &&
+            !dropdownRef.current.contains(event.relatedTarget)
+        ) {
+            setOpenDropdown(false)
+        }
+    }
+
     const renderItem = itemList?.map((item, index) => {
         return (
             <div
@@ -14,7 +27,7 @@ function DropDown(props) {
                 key={index}
             >
                 <button
-                    className="text-left"
+                    className="text-left w-full"
                     onClick={() => {
                         item.handleClick()
                         handleClick()
@@ -25,8 +38,14 @@ function DropDown(props) {
             </div>
         )
     })
+
     return (
-        <div className="relative inline-block text-left">
+        <div
+            className="relative inline-block text-left"
+            onBlur={handleBlur}
+            tabIndex={-1}
+            ref={dropdownRef}
+        >
             <div datatype={text}>
                 <button
                     type="button"
@@ -36,7 +55,7 @@ function DropDown(props) {
                             : 'text-gray border-gray'
                     } shadow-sm border  hover:border-lime
                         hover:text-lime hover:font-bold transition duration-300`}
-                    id="menu-button"
+                    id={text}
                     aria-expanded="true"
                     aria-haspopup="true"
                     onClick={handleClick}
@@ -65,10 +84,10 @@ function DropDown(props) {
                     className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black py-3 ring-opacity-5 focus:outline-none text-sm"
                     role="menu"
                     aria-orientation="vertical"
-                    aria-labelledby="menu-button"
+                    aria-labelledby={text}
                     tabIndex={-1}
                 >
-                    <div className="py-1" role="none">
+                    <div className="py-1 relative" role="none">
                         {renderItem}
                     </div>
                 </div>

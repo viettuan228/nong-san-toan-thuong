@@ -14,7 +14,7 @@ function Pagination({ total, itemPage, page }) {
             pagination.push(
                 <button
                     key={i}
-                    className={`w-[40px] h-[40px] rounded-sm font-bold border ${
+                    className={`w-[40px] h-[40px] font-bold border rounded-lg ${
                         Number(page) !== i
                             ? ' border-gray2 text-black'
                             : 'border-limeHover text-white bg-limeHover'
@@ -24,7 +24,7 @@ function Pagination({ total, itemPage, page }) {
                     {i}
                 </button>
             )
-            if(i>= page + 10) break
+            if (i >= page + 10) break
         }
         return pagination
     }

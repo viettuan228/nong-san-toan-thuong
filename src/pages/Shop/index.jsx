@@ -7,6 +7,10 @@ import CardProductItem from '../../components/cards/CardProductItem'
 import Pagination from '../../components/pagination'
 import { NavLink, useNavigate, useParams } from 'react-router-dom'
 import { ROUTER_NAME } from '../../constain/routesName'
+import CategoriesShop from './Components/CategoriesShop'
+import FilterByPrice from './Components/FilterByPrice'
+import RangeSlider from './Components/FilterByPriceV2'
+import AdjustableProgressBar from './Components/FilterByPriceV2'
 
 function Shop() {
     // eslint-disable-next-line no-unused-vars
@@ -17,12 +21,12 @@ function Shop() {
             urlLink: ROUTES.shop,
         },
     ])
-    const ITEM_PER_PAGE = 12
+    const ITEM_PER_PAGE = 9
     const { page } = useParams()
     let pageNumber = Number(page)
     const navigator = useNavigate()
     const [activeView, setActiveView] = useState('grid')
-    const [numberFilter, setNumberFilter] = useState('12')
+    const [numberFilter, setNumberFilter] = useState(9)
     const [filterType, setFilterType] = useState(0)
 
     // eslint-disable-next-line no-unused-vars
@@ -95,6 +99,12 @@ function Shop() {
     ]
     const filterByNumber = [
         {
+            title: 'Show: 9',
+            handleClick: () => {
+                setNumberFilter(9)
+            },
+        },
+        {
             title: 'Show: 12',
             handleClick: () => {
                 setNumberFilter(12)
@@ -141,7 +151,7 @@ function Shop() {
                 <NavLink
                     to={ROUTER_NAME.shop + '/' + page + '/' + item.id}
                     key={item.id}
-                    className="py-2"
+                    className="py-2 flex justify-end"
                 >
                     <CardProductItem productItem={item} />
                 </NavLink>
@@ -202,15 +212,23 @@ function Shop() {
                     </div>
                 </div>
                 <hr className="h-[1px] w-full bg-gray text-gray2 my-4" />
-                <div className="shop_product w-full">
-                    <div className="grid grid-cols-4">{renderProduct}</div>
-                </div>
-                <div className="shop__pagination">
-                    <Pagination
-                        total={featureProductItemList.length}
-                        itemPage={ITEM_PER_PAGE}
-                        page={page}
-                    />
+                <div className="shop_product w-full grid grid-cols-4">
+                    <div className="col-span-1 mx-8">
+                        <CategoriesShop />
+                        <AdjustableProgressBar />
+                    </div>
+                    <div className="col-span-3">
+                        <div className="w-full grid grid-cols-3 gap-x-2 gap-y-2">
+                            {renderProduct}
+                        </div>
+                        <div className="shop__pagination w-full flex justify-end">
+                            <Pagination
+                                total={featureProductItemList.length}
+                                itemPage={ITEM_PER_PAGE}
+                                page={page}
+                            />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

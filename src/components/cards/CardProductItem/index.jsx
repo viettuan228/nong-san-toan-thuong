@@ -3,10 +3,10 @@ import React from 'react'
 function CardProductItem({ productItem }) {
     const { title, image, price, productCat } = productItem
     return (
-        <div className="cardProductItem max-w-[270px] h-[350px] cursor-pointer border border-gray2 px-4 pt-7 pb-2 group hover:shadow-2xl hover:border-lime transition duration-300 ease-in-out">
-            <div className="cardProductItem__img w-full max-h-[200px] h-[200px] overflow-hidden">
+        <div className="cardProductItem max-w-[300px] h-[350px] cursor-pointer border border-gray2 px-4 pt-7 pb-2 group hover:shadow-2xl hover:border-lime transition duration-300 rounded-lg ease-in-out">
+            <div className="cardProductItem__img w-full max-h-[200px] h-[200px] overflow-hidden flex justify-center">
                 <img
-                    className="w-full h-full group-hover:scale-110 transition duration-300 ease-in-out"
+                    className="h-full group-hover:scale-110 transition duration-300 ease-in-out object-cover"
                     alt={title}
                     src={image}
                 />

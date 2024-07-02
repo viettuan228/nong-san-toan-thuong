@@ -4,6 +4,7 @@ import PictureZoom from '../../components/picture/PictureZoom'
 import NumberInput from '../../components/input/NumberInput'
 import ButtonLime from '../../components/buttons/buttonLime'
 import ButtonRounded from '../../components/buttons/ButtonRounded'
+import RelatedProductsList from '../../components/lists/RelatedProductsList'
 
 const imgData = [
     {
@@ -114,7 +115,9 @@ const ProductDetail = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="w-full"></div>
+            <div className="w-full">
+                <RelatedProductsList />
+            </div>
         </div>
     )
 }
