@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { ROUTES } from '../../constain'
+import { ROUTES } from '../../constants'
 
 function WrapperBreads(props) {
     const { breadCrumb } = props

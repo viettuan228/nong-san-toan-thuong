@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { API_URL } from '../../constain/apiUrl'
+import { API_URL } from '../../constants/apiUrl'
 import { getDataWithoutToken } from '../../services'
 
 const initState = {

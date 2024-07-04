@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from '../../assets/images/logo-wide.png'
-import { NAV_ITEM } from '../../constain'
+import { NAV_ITEM } from '../../constants'
 import './header.scss'
 import TopHeader from './TopHeader'
 const Header = () => {

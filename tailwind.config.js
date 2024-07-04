@@ -46,6 +46,7 @@ module.exports = {
             textDark: '#515151',
             subTextDark: '#767676',
             nude: '#FDF7EF',
+            transparent: 'transparent',
         },
     },
     plugins: [],

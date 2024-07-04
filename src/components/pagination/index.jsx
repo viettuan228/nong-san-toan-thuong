@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import { ROUTER_NAME } from '../../constain/routesName'
+import { ROUTER_NAME } from '../../constants/routesName'
 
 function Pagination({ total, itemPage, page }) {
     const totalPageNumber = Math.ceil(total / itemPage)
