@@ -3,7 +3,7 @@ import TitleWithIcon from '../../../components/title/TileWithIcon'
 import ButtonLime from '../../../components/buttons/buttonLime'
 import ButtonRounded from '../../../components/buttons/ButtonRounded'
 
-function FilterByPrice({ min = 0, max = 100, step = 1 }) {
+function FilterByPrice({ min = 0, max = 100, step = 0 }) {
     const [minValue, setMinValue] = useState(min)
     const [maxValue, setMaxValue] = useState(max)
     const [dragging, setDragging] = useState(null)
@@ -72,7 +72,7 @@ function FilterByPrice({ min = 0, max = 100, step = 1 }) {
                 ></div>
                 <div
                     className="h-full w-[5%] absolute top-[50%] translate-y-[-50%] z-3 cursor-pointer"
-                    style={{ left: `${getPercentage(minValue - 5)}%` }}
+                    style={{ left: `${getPercentage(minValue)}%` }}
                     onMouseDown={handleMouseDown('min')}
                 />
                 <div

@@ -9,6 +9,7 @@ import { NavLink, useNavigate, useParams } from 'react-router-dom'
 import { ROUTER_NAME } from '../../constants/routesName'
 import CategoriesShop from './Components/CategoriesShop'
 import FilterByPrice from './Components/FilterByPrice'
+import BestSeller from './Components/BestSeller'
 
 function Shop() {
     // eslint-disable-next-line no-unused-vars
@@ -211,9 +212,10 @@ function Shop() {
                 </div>
                 <hr className="h-[1px] w-full bg-gray text-gray2 my-4" />
                 <div className="shop_product w-full flex justify-between">
-                    <div className="w-[25%] px-8">
+                    <div className="w-[25%] px-8 flex flex-col gap-6">
                         <CategoriesShop />
                         <FilterByPrice />
+                        <BestSeller />
                     </div>
                     <div className="w-[75%]">
                         <div className="w-full flex justify-end">
