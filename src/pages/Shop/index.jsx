@@ -10,6 +10,8 @@ import { ROUTER_NAME } from '../../constants/routesName'
 import CategoriesShop from './Components/CategoriesShop'
 import FilterByPrice from './Components/FilterByPrice'
 import BestSeller from './Components/BestSeller'
+import ProductBanner from '../../layout/Banner/ProductBanner'
+import ShopLayout from '../../layout/ShopLayout'
 
 function Shop() {
     // eslint-disable-next-line no-unused-vars
@@ -163,13 +165,10 @@ function Shop() {
     }, [])
 
     return (
-        <div className="shop w-full my-10">
-            <div className="container mx-auto">
-                <hr className="h-[1px] w-full bg-gray text-gray2" />
+        <ShopLayout wrap={<WrapperBreads breadCrumb={breadCrumb} />}>
+            <div className="w-full">
                 <div className="shop__content w-full">
-                    <div className="shop__content__breadsCrumb w-full py-4">
-                        <WrapperBreads breadCrumb={breadCrumb} />
-                    </div>
+                    <div className="shop__content__breadsCrumb w-full py-4"></div>
                     <div className="shop__content__filter w-full flex items-center justify-between">
                         <div className="text-[24px] font-bold">
                             <h2>{NAME_NAV_ITEM.shop}</h2>
@@ -233,7 +232,7 @@ function Shop() {
                     </div>
                 </div>
             </div>
-        </div>
+        </ShopLayout>
     )
 }
 

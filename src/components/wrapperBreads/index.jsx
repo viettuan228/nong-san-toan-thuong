@@ -15,16 +15,21 @@ function WrapperBreads(props) {
         </NavLink>
     ))
     return (
-        <div className="wrapperBreads w-full flex items-center">
-            <NavLink to={ROUTES.home}>
-                <div className="flex items-center h-full group">
-                    <i className="fas fa-home"></i>
-                    <p className="pl-2 group-hover:text-lime group-hover:font-bold transition duration-300">
-                        Home
-                    </p>
-                </div>
-            </NavLink>
-            {renderBreadCrumb}
+        <div className="wrapperBreads w-full flex flex-col items-center justify-center text-white font-bold gap-4">
+            <p className="text-white text-4xl font-bold">
+                {breadCrumb[breadCrumb.length - 1].namePage}
+            </p>
+            <div className="flex items-center justify-center">
+                <NavLink to={ROUTES.home}>
+                    <div className="flex items-center h-full group">
+                        <i className="fas fa-home"></i>
+                        <p className="pl-2 group-hover:text-lime group-hover:font-bold transition duration-300">
+                            Home
+                        </p>
+                    </div>
+                </NavLink>
+                {renderBreadCrumb}
+            </div>
         </div>
     )
 }
